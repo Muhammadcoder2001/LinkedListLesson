@@ -20,6 +20,7 @@ public class Task19 {
         list.add("Orange");
         System.out.println(list.remove(0));
 
-        System.out.println(list.get(0));
+        System.out.println(list.getFirst());
+        System.out.println(list);
         }
 }

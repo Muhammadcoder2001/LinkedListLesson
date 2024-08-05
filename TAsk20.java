@@ -1,5 +1,6 @@
 package LinkedListLesson;
 
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedList;
 
@@ -28,5 +29,18 @@ public class TAsk20 {
 
         }
         System.out.println(list.getLast());
+        String[] list1 = list.toArray(new String[0]);
+        System.out.println(Arrays.toString(list1));
+
+        if (list.equals(list1)){
+            System.out.println("Both of them are equal");
+
+        }else{
+            System.out.println("Both of them are not equal");
+
+        }
+//        for (String s : list1) {
+//            System.out.println(s);
+//        }
     }
 }
